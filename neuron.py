@@ -31,6 +31,7 @@ class Neuron:
         denom = (1 + (np.exp(-weighted_sum)))
         return 1 / denom
 
+
 if __name__ == "__main__":
     inputs = np.array([2, 3])
     weights = np.array([0, 1])
